@@ -1,0 +1,211 @@
+#content{
+	background-image: url('back.jpg');
+}
+#time{
+	background-color: #3e8e41;
+}
+.trybtn {
+    background-color: 	#9ACD32;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.try {
+    position: relative;
+    display: inline-block;
+}
+
+.try-content {
+    display: none;
+    position: absolute;
+    background-color: #DEB887;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.try-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.try-content a:hover {background-color: #f1f1f1}
+
+.try:hover .try-content {
+    display: block;
+}
+
+.try:hover .trybtn {
+    background-color: #3e8e41;
+}
+
+#controls{
+
+	text-align: center;
+          
+      }
+#controls button{
+	cursor: pointer;
+	outline: none;	
+	padding: 10px 20px;
+	margin: 25px 2px;
+	border: 0;
+	border-radius: 4px;
+	
+	font: bold 14px Arial;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #000000;
+	
+}
+#controls button:hover{
+background-color: #DEB887;
+}
+
+#game{
+	position: relative;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 80px;
+    border: 2px;
+	border-radius: 4px;
+  
+    background: transparent;
+	
+
+}
+
+
+#game span{
+	position: absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 4px;
+}
+#game span.num{
+	cursor: pointer;
+	font: bold 36px/80px Arial;
+	text-align: center;
+	text-shadow: -1px -1px 0 rgba(0,0,0, 0.5);
+	color: #000000;
+}
+#game span.em_box:hover{
+	background-color: white;
+	border: 2px solid black;
+	background-color: #006000;
+
+}
+
+#game span.num.pic1{
+	background-image: url("pic241.jpeg");
+	border: 2px solid black;
+
+}
+#game span.num.pic2{
+	background-image: url("pic242.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic3{
+	background-image: url("pic243.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic4{
+	background-image: url("pic244.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic5{
+	background-image: url("pic246.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic6{
+	background-image: url("pic247.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic7{
+	background-image: url("pic248.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic8{
+	background-image: url("pic249.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic9{
+	background-image: url("pic2411.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic10{
+	background-image: url("pic2412.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic11{
+	background-image: url("pic2413.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic12{
+	background-image: url("pic2414.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic13{
+	background-image: url("pic2415.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic14{
+	background-image: url("pic2416.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic15{
+	background-image: url("pic2417.jpeg");
+	border: 2px solid black;
+}
+
+/*for image 16-24*/
+
+#game span.num.pic16{
+	background-image: url("pic245.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic17{
+	background-image: url("pic2410.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic18{
+	background-image: url("pic2424.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic19{
+	background-image: url("pic2418.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic20{
+	background-image: url("pic2419.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic21{
+	background-image: url("pic2420.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic22{
+	background-image: url("pic2421.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic23{
+	background-image: url("pic2422.jpeg");
+	border: 2px solid black;
+}
+#game span.num.pic24{
+	background-image: url("pic2423.jpeg");
+	border: 2px solid black;
+}
+
+#game.move span {
+	-webkit-transition: 0.15s left, 0.15s top;
+ 	transition: 0.15s left, 0.15s top;
+ 	
